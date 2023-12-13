@@ -30,6 +30,11 @@ extra large devices (large laptops and desktops, 1200px)
 */
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
+
+    body{
+        background-image: linear-gradient(to top,#ff0000,#720026 );
+    }
+
     section#login{
         width: 80vw;
     }
@@ -39,6 +44,7 @@ extra large devices (large laptops and desktops, 1200px)
         width: 35%;
         height: 101%;
     }
+
     section#login > div#formulario{
         float: right;
         width: 55%;
@@ -50,6 +56,11 @@ extra large devices (large laptops and desktops, 1200px)
 
 
 @media screen and (min-width:992px) {
+    
+    body{
+        background-image: linear-gradient(to top,#ff0000,#720026 );
+    }
+
     section#login{
         width:950px;
     }
