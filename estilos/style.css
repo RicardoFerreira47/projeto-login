@@ -32,7 +32,7 @@ section#login{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    overflow: hidden;
+    overflow: hidden; /* serve pra apagar tudo aquilo que transbordar as limitaçoes da borda*/
     background-color: white;
     width: 200px;
     height: 500px;
@@ -47,12 +47,14 @@ section#login > div#imagem{
     background-size: cover;
     background-position: center top;
     display: block;
-    margin-top: -1px;
+    margin: -1px;
+    
 
 }
 
 section#login > div#formulario{
     display: block;
     padding: 10px;
+    
 
 }
