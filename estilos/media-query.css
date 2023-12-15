@@ -47,7 +47,8 @@ extra large devices (large laptops and desktops, 1200px)
 
     section#login > div#formulario{
         float: right;
-        width: 55%;
+        width: 62%;
+        height: 100%;
         
         
     }
@@ -73,7 +74,7 @@ extra large devices (large laptops and desktops, 1200px)
 
     section#login > div#formulario{
         float: left;
-        width: 51%;
+        width: 53%;
 
         
     }
